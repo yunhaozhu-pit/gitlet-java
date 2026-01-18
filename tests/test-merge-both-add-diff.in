@@ -1,0 +1,25 @@
+> init
+<<<
+
+> branch f
+<<<
+> checkout f
+<<<
++ x.txt wug.txt
+> add x.txt
+<<<
+> commit "add x on f"
+<<<
+
+> checkout master
+<<<
++ x.txt notwug.txt
+> add x.txt
+<<<
+> commit "add x on master"
+<<<
+
+> merge f
+Encountered a merge conflict.
+<<<
+E x.txt

@@ -1,0 +1,10 @@
+> init
+<<<
+
+> find
+Incorrect operands.
+<<<
+
+> find hello extra
+Incorrect operands.
+<<<

@@ -1,0 +1,25 @@
+# Current branch is ancestor of given branch (fast-forward)
+> init
+<<<
++ a.txt wug.txt
+> add a.txt
+<<<
+> commit "v1"
+<<<
+
+> branch feature
+<<<
+> checkout feature
+<<<
++ a.txt notwug.txt
+> add a.txt
+<<<
+> commit "v2 on feature"
+<<<
+
+> checkout master
+<<<
+> merge feature
+Current branch fast-forwarded.
+<<<
+= a.txt notwug.txt

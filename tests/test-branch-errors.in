@@ -1,0 +1,15 @@
+> init
+<<<
+> branch dev
+<<<
+
+> branch dev
+A branch with that name already exists.
+<<<
+
+> checkout dev
+<<<
+
+> checkout dev
+No need to checkout the current branch.
+<<<

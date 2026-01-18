@@ -1,0 +1,11 @@
+> init
+<<<
++ a.txt wug.txt
+> add a.txt
+<<<
+> commit "m1"
+<<<
+
+> find target
+Found no commit with that message.
+<<<

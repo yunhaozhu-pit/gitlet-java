@@ -1,0 +1,29 @@
+> init
+<<<
++ a.txt wug.txt
+> add a.txt
+<<<
+> commit "base"
+<<<
+
+> branch feature
+<<<
+> checkout feature
+<<<
+> rm a.txt
+<<<
+> commit "remove a on feature"
+<<<
+
+> checkout master
+<<<
++ a.txt notwug.txt
+> add a.txt
+<<<
+> commit "modify a on master"
+<<<
+
+> merge feature
+Encountered a merge conflict.
+<<<
+E a.txt

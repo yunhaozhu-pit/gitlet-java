@@ -1,0 +1,19 @@
+> init
+<<<
++ a.txt wug.txt
+> add a.txt
+<<<
+> commit "m1"
+<<<
+
++ a.txt notwug.txt
+> rm a.txt
+<<<
+* a.txt
+
+> commit "remove a"
+<<<
+
+> checkout -- a.txt
+File does not exist in that commit.
+<<<
