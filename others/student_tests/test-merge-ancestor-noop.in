@@ -1,0 +1,15 @@
+# Given branch is ancestor of current branch
+> init
+<<<
++ a.txt wug.txt
+> add a.txt
+<<<
+> commit "v1"
+<<<
+
+> branch feature
+<<<
+
+> merge feature
+Given branch is an ancestor of the current branch.
+<<<

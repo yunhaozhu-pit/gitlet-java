@@ -1,0 +1,31 @@
+> init
+<<<
++ a.txt wug.txt
+> add a.txt
+<<<
+> commit "base"
+<<<
+
+> branch feat
+<<<
+> checkout feat
+<<<
++ a.txt notwug.txt
+> add a.txt
+<<<
+> commit "feat v2"
+<<<
+
+> checkout master
+<<<
++ marker.txt wug.txt
+> add marker.txt
+<<<
+> commit "master marker"
+<<<
+
+> merge feat
+<<<
+> checkout feat
+<<<
+= a.txt notwug.txt

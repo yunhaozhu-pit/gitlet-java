@@ -1,0 +1,29 @@
+> init
+<<<
++ w.txt wug.txt
+> add w.txt
+<<<
+> commit "base"
+<<<
+
+> branch feature
+<<<
+> checkout feature
+<<<
++ w.txt notwug.txt
+> add w.txt
+<<<
+> commit "f change"
+<<<
+
+> checkout master
+<<<
++ w.txt notwug.txt
+> add w.txt
+<<<
+> commit "m change"
+<<<
+
+> merge feature
+<<<
+= w.txt notwug.txt

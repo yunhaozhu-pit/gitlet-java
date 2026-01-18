@@ -1,0 +1,11 @@
+> init
+<<<
++ a.txt wug.txt
+> add a.txt
+<<<
+> commit "hello"
+<<<
+
+> find hell
+Found no commit with that message.
+<<<

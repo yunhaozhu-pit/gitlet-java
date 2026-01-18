@@ -1,0 +1,21 @@
+I definitions.inc
+
+> init
+<<<
+
++ a.txt wug.txt
+
+# add + commit
+> add a.txt
+<<<
+> commit "add a"
+<<<
+
+E .gitlet
+
++ a.txt notwug.txt
+
+> checkout -- a.txt
+<<<
+
+= a.txt wug.txt

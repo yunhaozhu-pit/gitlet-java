@@ -1,0 +1,8 @@
+# Basic initialization
+> init
+<<<
+E .gitlet
+> init
+A Gitlet version-control system already exists in the current directory.
+<<<
+

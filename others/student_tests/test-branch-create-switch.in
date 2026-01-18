@@ -1,0 +1,22 @@
+> init
+<<<
++ a.txt wug.txt
+> add a.txt
+<<<
+> commit "v1"
+<<<
+
+> branch feature
+<<<
+E .gitlet/refs/heads/feature
+
++ a.txt notwug.txt
+> add a.txt
+<<<
+> commit "v2 on master"
+<<<
+
+> checkout feature
+<<<
+
+= a.txt wug.txt

@@ -1,0 +1,5 @@
+I test01-init.in
+
+> add wugg.txt
+File does not exist.
+<<<
